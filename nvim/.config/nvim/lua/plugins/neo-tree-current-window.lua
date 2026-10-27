@@ -5,6 +5,10 @@ return {
     opts = {
       window = {
         position = "current",
+        mappings = {
+          ["<Tab>"] = "none",
+          ["<S-Tab>"] = "select",
+        },
       },
     },
   },
